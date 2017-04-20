@@ -80,14 +80,20 @@
 			<h2>Заинтересовались?</h2>
 			<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
 			<div class="search-hotel">
-				<h3>ПОИСК ГОСТИНИЦЫ В седоне</h3>
+				<button class="brown btn">ПОИСК ГОСТИНИЦЫ В седоне</button>
 				<form method="get" action="/echo" class="search-form">
-					<label for="arrival">Дата заезда:<input type="date" id="arrival" name="arrival-date" value="24 апреля 2017"></label>
-					<label for="departure">Дата выезда:<input type="date" id="departure" name="departure-date" value="4 июля 2017"></label>
-					<label for="adults"> Взрослые:</label>
-					<button></button><input type="number" id="adults" name="adults-number" value="2" min="1" step="1"><button></button>
-					<label for="children">Дети:</label>
-					<button></button><input type="number" id="children" name="children-number" value="0" min="0" step="1"><button></button>
+					<fieldset>
+						<label for="arrival">Дата заезда:</label><input type="date" id="arrival" name="arrival-date" value="24 апреля 2017"><span class="calendar"></span>
+					</fieldset>
+					<fieldset>
+						<label for="departure">Дата выезда:</label><input type="date" id="departure" name="departure-date" value="4 июля 2017"><span class="calendar"></span>
+					</fieldset>
+					<fieldset>
+						<label for="adults"> Взрослые:</label>
+						<button></button><input type="number" id="adults" name="adults-number" value="2" min="1" step="1"><button></button>
+						<label for="children">Дети:</label>
+						<button></button><input type="number" id="children" name="children-number" value="0" min="0" step="1"><button></button>
+					</fieldset>
 					<input type="submit" value="Найти">
 				</form>
 			</div>
@@ -98,7 +104,7 @@
 	</main>
 	<footer>
 		<div class="hash">
-			<b>#VISITSEDONA</b>
+			<a href="">#VISITSEDONA</a>
 		</div>
 		<div class="social">
 			<a class="soc-icon vk" href="#"></a>
