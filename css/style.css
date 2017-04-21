@@ -1,24 +1,24 @@
 body {
-font-size: 14px;
-line-height: 21px;
-color: #333333;
-font-weight: regular;
-font-family: "PT Sans", serif;
+	font-size: 14px;
+	line-height: 21px;
+	color: #333333;
+	font-weight: regular;
+	font-family: "PT Sans", serif;
 }
 
 .h2 {
-font-size: 21px;
-line-height: 26px;
-color: #000000;
-font-weight: bold;
-font-family: "PT Sans", serif;
+	font-size: 21px;
+	line-height: 26px;
+	color: #000000;
+	font-weight: bold;
+	font-family: "PT Sans", serif;
 }
 
 .h3 {
-font-size: 30px;
-line-height: 24px;
-color: #000000;
-font-weight: bold;
-font-family: "PT Sans", serif;
+	font-size: 30px;
+	line-height: 24px;
+	color: #000000;
+	font-weight: bold;
+	font-family: "PT Sans", serif;
 }
 
