@@ -3,37 +3,38 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+	<link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-	<header>
+	<header class="container">
 		<nav>
-			<ul>
+			<ul class="clearfix">
 				<li><a href="#">Информация</a></li>
 				<li><a href="#">Фото и видео</a></li>
 				<li><a href="#">Карта штата</a></li>
 				<li><a href="#">Гостиницы</a></li>
 			</ul>
-			<img src="img/logo.png" width="138" height="70" alt="logo">
-		</nav>
+		<img src="img/logo.png" width="138" height="70" alt="logo"> 
+		</nav> 	
 	</header>
-	<main>
+	<main class="container"> 
 		<div class="main-promo">
 			<img src="img/background_photo.jpg" width="1200" height="773" alt="main">
 			<h1 class="h1">Sedona</h1>
 		</div>
-		<div class="container">
+		<div class="slogan clearfix">
 			<h3 class="h3">СЕДОНА — небольшой городок в АРИЗОНЕ,<br> заслуживающий большего!</h3>
 			<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>	
 		</div>
-		<section class="container">
-			<div class="blue-column">
+		<section class="box clearfix">
+			<div class="blue-column-one">
 				<b class="subtitle">НАСТОЯЩИЙ ГОРОДОК</b>
 				<p>— №1 —</p>
 				<p>СЕДОНА — НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
 			</div>
 			<img src="img/2.jpg" width="800" height="256" alt="view-1">
 		</section>
-		<section class="features">
+		<section class="features clearfix">
 			<div class="feature-item">
 				<img src="img/7.png" width="75" height="72" alt="icon-1">
 				<b class="subtitle">Жилье</b>
@@ -50,15 +51,15 @@
 				<p>Не только китайского, но и местного производства!</p>
 			</div>
 		</section>
-		<section class="promo">
-			<div class="blue-column">
-				<img src="img/1.jpg" width="800" height="256" alt="view-2">
+		<section class="box clearfix">
+			<img src="img/1.jpg" width="800" height="256" alt="view-2">
+			<div class="blue-column-two">
 				<b class="subtitle">ТАМ ЕСТЬ Мост дьявола</b>
 				<p>— №2 —</p>
 				<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
 			</div>
 		</section>
-		<section class="container">
+		<section class="box clearfix">
 			<div class="grey-column">
 				<b class="subtitle">НЕБОЛЬШАЯ ПЛОЩАДЬ</b>
 				<p>— №3 —</p>
@@ -75,9 +76,11 @@
 				<p>Большинство едет в гранд каньон и толпится там</p>
 			</div>
 		</section>
-		<section class="container">
-			<h2 class="h2">Заинтересовались?</h2>
-			<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+		<section class="box-form">
+			<div class="form-info">
+				<h2 class="h2">Заинтересовались?</h2>
+				<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+			</div>
 			<div class="search-hotel">
 				<button class="brown btn">ПОИСК ГОСТИНИЦЫ В седоне</button>
 				<form method="get" action="/echo" class="search-form">
@@ -101,7 +104,7 @@
 			</div>
 		</section>
 	</main>
-	<footer>
+	<footer class="container clearfix">
 		<div class="hash">
 			<a href="">#VISITSEDONA</a>
 		</div>

@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог: Седона</title>
+	<link href="css/style.css" rel="stylesheet">
   </head>
     <body>
-		<header>
+		<header class="container">
 			<nav>
-				<ul>
+				<ul class="clearfix">
 					<li><a href="#">Информация</a></li>
 					<li><a href="#">Фото и видео</a></li>
 					<li><a href="#">Карта штата</a></li>
@@ -16,8 +17,8 @@
 				<a class="logo" href="#"><img src="img/logo.png" width="138" height="70" alt="logo"></a>
 			</nav>
 		</header>
-		<main>
-			<form method="post" action="/echo" class="filters">
+		<main class="container">
+			<form method="post" action="/echo" class="filters clearfix">
 				<fieldset class="column">
 					<legend>Инфраструктура:</legend>
 					<label for="pool">
@@ -48,74 +49,79 @@
 					<input type="submit" value="Показать">
 				</fieldset>
 			</form>
-			<section class="container">
+			<section class="results clearfix">
 				<h3 class="h3">Найдено: 3</h3>
 				<div class="graduation">
-					<span>Сортировка:</span>
-					<ul>
+					<span class="variants">Сортировка:</span>
+					<ul class="clearfix">
 						<li>По цене</li>
 						<li><a href="#">По типу</a></li>
 						<li><a href="#">По рейтингу</a></li>
 					</ul>
 				</div>
-				<div class="arrows">
+				<div class="arrows clearfix">
 					<a href="#"></a>
 					<a href="#"></a>
 				</div>
 			</section>
 			<section class="catalog">
-				<article class="item">
-					<img src="img/3.jpg" width="135" height="90" alt="Amara-Resort">
+				<article class="item clearfix">
+					<img src="img/3.jpg" width="135" height="90" alt="Amara-Resort" class="hotel-photo">
 					<div class="info">
 						<h3 class="h3">Amara Resort & Spa</h3>
 						<span class="type">Гостиница</span>
 						<span class="cost">От 4000 р.</span>
-						<a class="blue-btn" href="#">Подробнее</a>
-						<a class="brown-btn" href="#">Забронировать</a>
-					</div>
+						<div class="hotel-btns">
+							<a class="blue-btn" href="#">Подробнее</a>
+							<a class="brown-btn" href="#">Забронировать</a></div>
+						</div>
 					<div class="rate">
-						<img src="img/4stars.png" width="89" height="17" alt="4stars">
+						<img src="img/4stars.png" width="89" height="17" alt="4stars" class="stars">
 						<span class="rating">Рейтинг: 8,5</span>
 					</div>
 				</article>
-				<article class="item">
-					<img src="img/5.jpg" width="135" height="90" alt="Desert-Quail-Inn">
+				<article class="item clearfix">
+					<img src="img/5.jpg" width="135" height="90" alt="Desert-Quail-Inn" class="hotel-photo">
 					<div class="info">
 						<h3 class="h3">Desert Quail Inn</h3>
 						<span class="type">Мотель</span>
 						<span class="cost">От 3000 р.</span>
-						<a class="blue-btn" href="#">Подробнее</a>
-						<a class="brown-btn" href="#">Забронировать</a>
+						<div class="hotel-btns">
+							<a class="blue-btn" href="#">Подробнее</a>
+							<a class="brown-btn" href="#">Забронировать</a>
+						</div>
 					</div>
 					<div class="rate">
-						<img src="img/3stars.png" width="65" height="17" alt="3stars">
+						<img src="img/3stars.png" width="65" height="17" alt="3stars" class="stars">
 						<span class="rating">Рейтинг: 8,9</span>
 					</div>
 				</article>
-				<article class="item">
-					<img src="img/4.jpg" width="135" height="90" alt="Villas-at-Poco-Diablo">
+				<article class="item clearfix">
+					<img src="img/4.jpg" width="135" height="90" alt="Villas-at-Poco-Diablo" class="hotel-photo">
 					<div class="info">
 						<h3 class="h3">Villas at Poco Diablo</h3>
 						<span class="type">Апартаменты</span>
 						<span class="cost">От 2000 р.</span>
-						<a class="blue-btn" href="#">Подробнее</a>
-						<a class="brown-btn" href="#">Забронировать</a>
+						<div class="hotel-btns">
+							<a class="blue-btn" href="#">Подробнее</a>
+							<a class="brown-btn" href="#">Забронировать</a>
+						</div>
 					</div>
 					<div class="rate">
-						<img src="img/2stars.png" width="42" height="17" alt="2stars">
+						<img src="img/2stars.png" width="42" height="17" alt="2stars" class="stars">
 						<span class="rating">Рейтинг: 9,2</span>
 					</div>
 				</article>
 			</section>
 		</main>
-   <footer>
+   <footer class="container">
 		<div class="hash">
 			<a href="">#VISITSEDONA</a>
 		</div>
 		<div class="social">
 			<a class="soc-icon vk" href="#"></a>
 			<a class="soc-icon fb" href="#"></a>
-			<a class="soc-icon youtube" href="#"></a>						
+			<a class="soc-icon youtube" href="#"></a>			
 		</div>
 		<div class="developer">
 			<span class="dev-name">WEBSITE BY<a href="#">HTMLACADEMY.RU</a></span>

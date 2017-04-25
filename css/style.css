@@ -22,3 +22,173 @@ body {
 	font-family: "PT Sans", serif;
 }
 
+/*Сетки*/
+
+.clearfix:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+	background-color: red;
+	margin: 0 auto;
+	width: 1200px;
+}
+nav {
+	width: 1056px;
+	margin: 0 auto;
+}
+
+nav li {
+	background-color: yellow;
+	width: 20%;
+	min-height: 56px;
+}
+
+nav li:nth-child(1), li:nth-child(2) {
+	float: left;
+}
+
+nav li:nth-child(3), li:nth-child(4) {
+	float: right;
+}
+
+.main-promo {
+	min-height: 508px;
+	background-color: blue;
+}
+
+.main-promo h1 {
+	text-align: center;
+}
+
+.slogan {
+	margin: 0 auto;
+	width: 576px;
+	background-color: grey;
+}
+
+.blue-column-one {
+	float: left;
+	background-color: blue;
+	width: 400px;
+	min-height: 256px; 
+}
+
+.blue-column-two {
+	float: right;
+	background-color: blue;
+	width: 400px;
+	min-height: 256px;  
+}
+
+.feature-item {
+	width: 400px;
+	float: left;
+	background-color: yellow;
+	min-height: 330px;
+}
+
+.grey-column {
+	float: left;
+	background-color: yellow;
+	width: 400px;
+	min-height: 256px;   
+}
+
+.form-info {
+	margin: 0 auto;
+	width: 576px;
+	background-color: blue;
+	min-height: 205px;
+}
+
+.box-form > .search-hotel{
+	margin: 0 auto;
+	width: 576px;
+	background-color: blue;
+}
+
+.hash, .social, .developer {
+	float: left;
+	width: 400px;
+	background-color: green;
+	min-height: 120px;
+}
+
+.h1, .h2, .h3, .results ul{
+	margin: 0;
+}
+
+.filters{
+	width: 1056px;
+	margin: 0 auto;
+	background-color: grey;
+	min-height: 217px;
+}
+
+.filters .column:nth-child(1), .filters .column:nth-child(2) {
+	float: left;
+	background-color: yellow;
+	width: 240px;
+}
+.filters .column:nth-child(3) {
+	float: right;
+	background-color: yellow;
+	width: 328px;
+}
+
+.results {
+	width: 1056px;
+	margin: 0 auto;
+	background-color: yellow;
+	min-height: 86px;
+}
+
+.results h3 {
+	float: left;
+	margin-right: 49px;
+}
+.results .variants {
+	float: left;
+    margin-right: 40px;
+}
+.results li {
+	float: left;
+	margin-right: 33px;
+}
+.arrows {
+	float: right;
+}
+
+.catalog .item {
+	background-color: grey;
+	width: 1056px;
+	margin: 0 auto;
+	min-height: 150px;
+}
+.item .hotel-photo {
+	float: left;
+	margin-right: 30px;
+}
+
+.item .stars {
+	display: block;
+}
+
+.item .rate {
+	float: right;
+}
+
+label {
+	display: block;
+}
+
+.info {
+	width: 800px;
+}
+
+
+/*Сетки*/
+
