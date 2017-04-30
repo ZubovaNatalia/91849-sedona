@@ -44,14 +44,11 @@ nav li {
 	background-color: yellow;
 	width: 20%;
 	min-height: 56px;
-}
-
-nav li:nth-child(1), li:nth-child(2) {
 	float: left;
 }
 
-nav li:nth-child(3), li:nth-child(4) {
-	float: right;
+nav li:nth-child(2) {
+	margin-right: 20%;
 }
 
 .main-promo {
@@ -171,6 +168,10 @@ nav li:nth-child(3), li:nth-child(4) {
 .item .hotel-photo {
 	float: left;
 	margin-right: 30px;
+}
+
+.info {
+	float: left;
 }
 
 .item .stars {
